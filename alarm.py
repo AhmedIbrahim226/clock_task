@@ -1,19 +1,20 @@
 import datetime, time
 
-def alarm_func():
-    alarm_time = int(input('Enter minutes to alarm on.'))
+
+def alarm_func(alarm_time):
+    x1 = datetime.datetime.now() + datetime.timedelta(seconds=alarm_time)
+
     while True:
-        x = datetime.datetime.now() + datetime.timedelta(minutes=alarm_time)
-        if x == datetime.datetime.now():
+        if str(x1.ctime()) == str(datetime.datetime.now().ctime()) :
             print('ALARM NOW!')
-   
+            break
+
 def count_dowen(t):
     while t:
-        mins, secs = divmod(t, 60)
-        timer = '{:02d}:{02d}'.format(mins, secs)
+        mints, secs = divmod(t, 60)
+        timer = '{:02d}:{:02d}'.format(mints, secs)
         print(timer, end='\r')
         time.sleep(1)
         t -= 1
 
 
-t = int(input('Enter in second:'))
