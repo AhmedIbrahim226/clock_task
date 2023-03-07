@@ -22,5 +22,5 @@ clock.py file
 ```
 ---
 
-![FB_IMG_1619811304322](https://user-images.githubusercontent.com/66057218/223447646-c025ea9b-89cd-4605-b84b-72fe5f32938a.jpg)
+![FB_IMG_1619811304322](https://user-images.githubusercontent.com/66057218/223447646-c025ea9b-89cd-4605-72fe5f32938a.jpg)
 
