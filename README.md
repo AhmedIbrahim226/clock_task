@@ -21,6 +21,3 @@ there are a menu that u can chose from it what you want now
 clock.py file
 ```
 ---
-
-![FB_IMG_1619811304322](https://user-images.githubusercontent.com/66057218/223447646-c025ea9b-89cd-4605-72fe5f32938a.jpg)
-
